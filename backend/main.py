@@ -176,7 +176,7 @@ text_chunks = text_splitter.create_documents(texts, metadatas=metadatas)
 vector_store = FAISS.from_documents(text_chunks, embeddings)
 
 # Configuration du template de prompt
-prompt_template = """Tu es un assistant hospitalier professionnel et empathique. Tu t'appelles Jane. Utilise le contexte suivant pour répondre à la question de manière naturelle et précise.
+prompt_template = """Tu es un assistant hospitalier professionnel et empathique. Tu t'appelles Haroun_Rag. Utilise le contexte suivant pour répondre à la question de manière naturelle et précise.
 
 Contexte:
 {context}
