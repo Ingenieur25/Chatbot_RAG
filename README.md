@@ -39,7 +39,7 @@ Un chatbot intelligent pour gérer les informations hospitalières, utilisant Fa
 
 1. **Cloner le projet**
 ```bash
-git clone https://github.com/tanguy-kabore/hospital-chatbot.git
+git clone https://github.com/Ingenieur25/Chatbot_RAG.git
 cd hospital-chatbot
 ```
 
